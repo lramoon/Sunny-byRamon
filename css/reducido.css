@@ -807,7 +807,7 @@ header.masthead {
     padding-bottom: 12rem;
     text-align: left;
     color: #fff;
-    background-image: url(../images/desktop/image-header.jpg);
+    background-image: url('../images/desktop/image-header.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
