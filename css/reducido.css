@@ -969,5 +969,74 @@ footer a:hover {
     }
 }
 
+@media only screen and (min-device-width: 393px) and (max-device-height: 873px) and (orientation: portrait) {
+    /* CSS */
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    h1,
+    .h1,
+    .h1 {
+        font-family: 'Fraunces';
+        font-weight: 600;
+        font-size: 2.5em !important;
+    }
+    .ajuste_titulo_cerezas {
+        font-size: 1.5em;
+        top: 55%;
+        left: 29%;
+    }
+    .ajuste_titulo_naranja {
+        font-size: 1.5em;
+        top: 55%;
+        left: 30%;
+    }
+    .ajuste_parafo {
+        font-size: 0.7em;
+        top: 67%;
+    }
+    .btn-menu {
+        color: black !important;
+        background-color: #fad400 !important;
+        border-color: #fad400 !important;
+    }
+    .ajus {
+        color: black !important;
+    }
+    .bg-menu {
+        background-color: white !important;
+    }
+}
+
+@media only screen and (min-device-width: 393px) and (max-device-height: 873px) and (orientation: landscape) {
+    /* CSS */
+    h1,
+    .h1,
+    .h1 {
+        font-family: 'Fraunces';
+        font-weight: 600;
+        font-size: 2.5em !important;
+    }
+    .ajuste_titulo_cerezas {
+        font-size: 2.7em;
+        top: 55%;
+        left: 29%;
+    }
+    .ajuste_titulo_naranja {
+        font-size: 2.7em;
+        top: 55%;
+        left: 30%;
+    }
+    .ajuste_parafo {
+        font-size: 1.5em;
+        top: 67%;
+    }
+}
+
 
 /*# sourceMappingURL=custom.css.map */
